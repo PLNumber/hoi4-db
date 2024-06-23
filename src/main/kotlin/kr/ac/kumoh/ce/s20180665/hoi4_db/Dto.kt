@@ -1,6 +1,5 @@
 package kr.ac.kumoh.ce.s20180665.hoi4_db
 /*20180665 안재모*/
-
 /*사령관 정보 조회용*/
 data class CmdInfoDTO(
     /*국가 정보*/
@@ -14,7 +13,6 @@ data class CmdInfoDTO(
     val pln: Int,
     val log: Int
 )
-
 /*지도자 조회용*/
 data class LdInfoDTO(
     /*국가정보*/
